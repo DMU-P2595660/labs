@@ -2,20 +2,66 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    
+    <!--  Don't forget to add the viewport meta tag into all your <head> elements. I've popped it in below. 
+          This will make your site display properly on mobile devices -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    
     <title>Cake</title>
   </head>
   <body>
 <div>
+  
+  <!-- I think what you're trying to do here is give the h1 an id or class name. 
+       We don't need to do that yet, so you can get rid of the ="MainHeading" bit. -->
   <h1 ="MainHeading">Cakes Made With Love</h1>
+  
+  <!-- This is where you might want to put your navigation menu in, right below your main heading.
+       In the labsheet, it asks you to make three pages, so you need three links. 
+       Each one is created with an <a> element, just like you've got further down. 
+       With an <a> element, you need to tell the browser two things:
+        1. What should be displayed on the page for the user to click/tap
+        2. Where should the browser go when the user clicks/taps it
+
+      We achieve the first with the content of the <a> element. That is, whatever we put between the 
+opening and closing tags. For example, <a>I am a link</a> would display I am a link on the page, and that's
+      what the user should click/tap on.
+
+      For the second thing, we use the href attribute to tell the browser where to go. You've done this further 
+      down where you're displaying the word Link as the thing the user clicks/taps on, and then the browser takes them to
+      the bbc good food website. Good choice by the way.
+
+      For links within your own website, it works in the same way. 
+
+      If you have a file called about.html and you want to put a link on the page to go to it, you would write
+
+<a href='about.html'>About</a>
+
+      This would display the word About, and when the user clicks/taps on it, they would be taken to about.html
+
+      -->
+  
+  
   <h2>Rainbow Cake</h2>
   <img style='max-width: 40%' src='img/cake1.jpg' alt='A Tall Cake' />
   <p>Tall cake with lots of cute colours!</p>
+  
+  <!-- This shouldn't really be a <h1>. By using this, you've said this is a heading with the same level
+       level of importance as your main page heading. In fact, this probably doesn't want to be a heading at all,
+       so a <p> element is probably more appropriate. -->
+  
   <h1>Here is the recipe so you can try it yourself</h1>
 <a href="https://bbcgoodfood.com/recipes/rainbow-cake">Link</a>
+  
+<!-- These two links will display nothing and go nowhere. A note on the use of # here: an <a> element will only be styled as such and clickable if it
+     has a href attribute. There are times when you want the styling, but you don't want to actually go anywhere. Maybe you haven't created the page
+     that it goes to yet. In these cases, using a # for the href will just reload the same page again. -->
 <a href="#"></a>
 <a href="#"></a>
 
-
+    <!-- Aah, here's the viewport meta tag. As noted above, this should go in your <head> section. 
+         Elements that provide information about your code go in the <head> section, elements that are
+         to be displayed on the page go in the <body> -->
     <meta name='viewport' content='width=device-width' />
   </body>
 </html>
