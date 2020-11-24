@@ -16,12 +16,25 @@
  </head>
  <body>
 <div>
+  
+  <!-- ***
+       You've got lots of styles applied inline, but you've also linked to a separate css file.
+    
+       It would be good to extract all of these inline styles to the css file so they're
+       all in one place.
+       *** -->
   <h1 style="color:DeepPink; background-color: black;">Cakes Made With Love</h1>
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
 <a href="contact.html">Contact</a>
   <h2>Rainbow Cake</h2>
   <img style='max-width: 40%' src='img/cake1.jpg' alt='A Tall Cake' />
+  
+  <!-- ***
+       Although the <b> element exists, it should be used as a last resort when no other element
+       is more appropriate, as it is purely stylistic. Styles should be handled by CSS instead, in 
+       this case, with the font-weight rule.
+       *** -->
   <p><b>Tall cake with lots of cute rainbow colours!</b></p>
   <p><b>Here is the recipe so you can try it yourself,<b/></p>
 <a href="https://bbcgoodfood.com/recipes/rainbow-cake">Rainbow Cake Recipe</a>
@@ -39,4 +52,7 @@
   <p>Sorry, your browser does not support the audio element. However, you can download an MP3 <a href="audio/audiofile.mp3">here</a>.</p>
 <meta name='viewport' content='width=device-width' />
  </body>
+   <!-- ***
+        This is all really good, well done.
+        *** -->
 </html>
