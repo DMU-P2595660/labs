@@ -6,6 +6,7 @@ body {
 body {
   background-color: #7C0A02;"
 }
+/*CSS for my font and background colour*/
 
 h1 {
   color: white;
@@ -15,6 +16,7 @@ h1 {
   background-size: 90px 40px;
   text-align: center;
 }
+/*CSS for my heading that allows me to change the font size, background colour, also allowing me to centre the text etc*/
 
 
 .click {
@@ -25,6 +27,7 @@ h1 {
   display: inline-block;
   line-height: 50px; font-size: 1.4em
 }
+/*This CSS is linked to the text on my About page, 'click down below to watch the trailer, if you dare...', allowing me to centre the text and change the font etc.*/
 
 .synopsis {
   color:white;
@@ -32,6 +35,7 @@ h1 {
   line-height: 50px;
   font-size:1.4em
 }
+/*This part is linked to the synopsis on the About page*/
 
 
 footer {
