@@ -56,15 +56,10 @@ p {
   color: white;
   display: block;
     margin-top:10%
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     margin: 0px;
     text-align: left;
-
-
 }
+/* This CSS is linked to my cast page, specifically the Zoe Margaret Colletti part of the cast page, allowing me to change the font, colours etc*/
 
 audio {
   width:100%
@@ -110,6 +105,7 @@ a:link, a:visited {
 footer {
   margin-top:5%
 }
+/*CSS to change my footer properties*/
 
 a:hover, a:active {
   background-color: #960018;
