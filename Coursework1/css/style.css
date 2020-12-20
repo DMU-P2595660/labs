@@ -43,13 +43,14 @@ footer {
   background-color: white;
   text-align: center;
   font-size: 1.2em
-
 }
+/*This CSS is linked to my footer, allowing me to change the font size, colour etc*/
 
 img {
   float: left;
  margin: 10px 10px;
 }
+/*This allows me to change the image details, and lets me move the picture around*/
 
 p {
   font-size: 1.2em;
@@ -68,6 +69,7 @@ p {
 audio {
   width:100%
 }
+/*This CSS is linked to my audio which allows me to change the size of the audio*/
 
 .austin {
   color: white;
@@ -87,20 +89,25 @@ a:link, a:visited {
   display: inline-block;
   font-size: 1.5em;
 }
+/*This CSS is linked to my menu buttons, allowing me to change the fonts and colours of the text*/
 
 .audiointerviewinfo {
   font-size: 1.4em;
   background-color: black;
   color: white;
   margin-top: 19%
+    text-align:center;
 }
+/*This CSS is linked to the text on the cast page, "Check out Zoe Colletti's interview down below"*/
 
 .audiointerviewinfo2 {
  font-size: 1.4em;
  background-color: black;
  color: white;
  margin-top: 21.9%
+   text-align: center;
 }
+/*This CSS is linked to the text on the cast page, "Check out Austin Zajurs's interview down below"*/
 
 footer {
   margin-top:5%
@@ -109,4 +116,4 @@ footer {
 
 a:hover, a:active {
   background-color: #960018;
-/*This file is for my CSS, it allows me to change around the code without overfilling my code.*/
+/*This CSS is also for my menu buttons, as the viewer who's on desktop hovers over "About" and "Cast" they change to a lighter colour than the background*/
