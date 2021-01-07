@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- using <meta name="viewport" content="width=device-width, initial-scale=1"/>, it allows me to control layout not only on the website but on mobile.-->
+    <link href='https://fonts.googleapis.com/css?family=IM Fell English' rel='stylesheet'>
+    <!-- this code shows the link to the website that I chose my font from. The href attribute specifies the URL of the website the link goes to. -->
+    <title>About</title>
+    <!-- the title element doesn't create a title on my page, but it is shown in the tab of a page or the browsers title bar.-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- using <link href="css/style.css" rel="stylesheet" type="text/css"/>, I am able to link my external stylesheet. This allows me to change my code around without overcrowding-->
+  </head>
+  <body>
+    <h1>Scary Stories to tell in the Dark</h1>
+    <!-- The h1 element allows me to create a header for my page-->
+    <nav>
+    <div style="text-align: center">
+    <a href="index.html">About</a>
+    <a href="cast.html">Cast</a>
+    <!-- the a element is used as a hyperlink for my menu so its easy for people to go from one page to the other.-->
+  </div>
+</nav>
+<!-- using the <nav> element, it shows a set of navigation links -->
+  <div>
+    <!-- the <div> element allows me to create a section within my website -->
+    <p class="synopsis">The shadow of the Bellows family has loomed large in the small town of Mill Valley for generations. It's in a mansion that young Sarah Bellows turns her tortured life and horrible secrets into a series of scary stories. These terrifying tales soon have a way of becoming all too real for a group of unsuspecting teens who stumble upon Sarah's spooky home.</p>
+<!-- using the p element, I can add text explaining the synopsis for my movie as well as the cast etc. It also allows me to create a blank page inbetween each line so my text is evenly spaced out.-->
+    <!-- using the class element, this allows me to jump to a class name in my stylesheet and lets me build and manipulate this section so it doesn't get overcrowded with code.-->
+  </div>
+    <div style="text-align: left; font-size:0.8em">
+    <a href="https://www.rottentomatoes.com/m/scary_stories_to_tell_in_the_dark">Synopsis taken from Rotten Tomatoes website</a>
+  </div>
+  <div style="text-align: center; font-size:0.8em">
+      <p class="click">Click down below to watch the trailer, if you dare...</p>
+<div style="margin-top:0%">
+    <video width=80% poster="img/scarystoriesposter.jpg" controls>
+      <!-- using the controls element, this allows the video to play on the website by clicking the play button-->
+  <source src="vid/ssttitd.ogv" type="video/ogg" />
+  <source src="vid/ssttitd.webm" type="video/webm" />
+  <source src="vid/ssttitd.mp4" type="video/mp4" />
+  <p>Your browser does not support the video element. Please click <a href='vid/ssttitd.mp4'>here</a> to download an mp4 of the video.</p>
+</video>
+</div>
+<div>
+    <footer>Navjot Pattar, Student Number: P2595660</footer>
+    <!-- this footer element is used to identify the footer of a page.-->
+  </div>
+  </body>
+</html>
