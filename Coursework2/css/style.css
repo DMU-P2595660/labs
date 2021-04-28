@@ -7,16 +7,19 @@ body {
 .facebook:hover {
     border-radius: 5px;
   opacity: 0.7;
+  max-width: 100%
 }
 
 .instagram:hover {
     border-radius: 5px;
   opacity: 0.7;
+  max-width: 100%
 }
 
 .tiktok:hover {
     border-radius: 5px;
   opacity: 0.7;
+  max-width: 100%
 }
 
 
@@ -48,37 +51,8 @@ body {
 }
 
 
-.footer {
-  clear: both;
-  position: relative;
-  height: 200px;
-  margin-top: 150px;
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
 }
 
 
@@ -95,12 +69,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 
 .fade-in {
   animation: fadeIn ease 2.5s;

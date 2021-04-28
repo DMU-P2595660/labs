@@ -25,34 +25,46 @@
 <p><a href="https://www.facebook.com/navjotpattarmu">
 <img class="facebook" src="img/facebook.png" class="facebook" alt="FaceBook" width="110" height="90">
 </a></p>
+<p style="background-color: #9A7B4F">Facebook</p>
 </div>
 <div class="column">
 <p><a href="https://www.instagram.com/navjotpattarmu/">
 <img class="instagram" src="img/instagram.png" class="instagram" alt="Instagram" width="110" height="90">
 </a></p>
+<p style="background-color: #9A7B4F">Instagram</p>
 </div>
 <div class="column">
 <p><a href="https://www.tiktok.com/@navjotpattarmu?lang=en">
 <img class="tiktok" src="img/tiktok.png" class="tiktok" alt="TikTok" width="165" height="90">
 </a></p>
+<p style="background-color: #9A7B4F">TikTok</p>
 </div>
-<h2>Send e-mail to navjotkaurpattar@gmail.com:</h2>
+</div>
+<div class="container">
+  <form action=”submit.html”>
 
-<form action="mailto:navjotkaurpattar@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-<div style="text-align: center"
-<footer style="margin-top: 400px;" class="footer">
-  <p>Navjot Pattar, Pnumber: P2595660</p>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<footer>
+  <p style="text-align: center">Navjot Pattar, Pnumber: P2595660</p>
 </footer>
-</div>
-</div>
   </body>
 </html>
