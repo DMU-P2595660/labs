@@ -51,12 +51,13 @@ input[type=submit] {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
+
 
 .facebook:hover {
     border-radius: 5px;
@@ -90,7 +91,14 @@ input[type=submit] {
 }
 .row {
   display: flex;
-  text-align: center
+}
+
+.tiktok {
+  margin-left: -55px
+}
+
+.instagram {
+  margin-left: -15px
 }
 
 .column {
@@ -103,7 +111,6 @@ input[type=submit] {
     width: 100%;
   }
 }
-
 
 .column {
   float: left;
